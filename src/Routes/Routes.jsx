@@ -8,7 +8,8 @@ import ContactUs from "../Pages/ContactUs";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import ApartmentDetails from "../Pages/ApartmentDetails";
-import SingleFamilyHomeDetails from "../Pages/SingleFamilyHouses/SingleFamilyHomeDetails"
+import SingleFamilyHousesDietails from "../Pages/SingleFamilyHouses/SingleFamilyHousesDietails";
+import PrivetRoutes from "./PrivetRoutes";
 
 const router = createBrowserRouter([
     {
@@ -34,11 +35,11 @@ const router = createBrowserRouter([
         },
         {
             path: '/Apartment/:id',
-            element: <ApartmentDetails></ApartmentDetails>
+            element: <PrivetRoutes><ApartmentDetails></ApartmentDetails></PrivetRoutes>
         },
         {
-            path: '/singleFamilyHomes/:id',
-            element: <SingleFamilyHomeDetails></SingleFamilyHomeDetails>
+            path: '/single_family_home/:id',
+            element: <PrivetRoutes><SingleFamilyHousesDietails></SingleFamilyHousesDietails></PrivetRoutes>
         }
       ]
     },

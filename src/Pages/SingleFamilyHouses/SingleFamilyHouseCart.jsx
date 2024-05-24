@@ -16,7 +16,7 @@ const SingleFamilyHouseCart = ({singleFamilyHome}) => {
                         <button className="btn bg-white border-green-600 ">Price: {price}</button>
                     </div>
                     <div className="">
-                        <Link to={`/apartment/${id}`}><button className="btn w-full btn-primary">View Property</button></Link>
+                        <Link to={`/single_family_home/${id}`}><button className="btn w-full btn-primary">View Property</button></Link>
                     </div>
                 </div>
             </div>
