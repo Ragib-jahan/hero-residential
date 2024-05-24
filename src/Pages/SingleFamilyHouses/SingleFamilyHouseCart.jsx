@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
 
+import { Link } from 'react-router-dom';
 
-const ApartmentPage = ({ apartment }) => {
-    const {estate_title, description, id, area, price, status} = apartment
+const SingleFamilyHouseCart = ({singleFamilyHome}) => {
+    const {estate_title, description, id, area, price, status} = singleFamilyHome
     return (
         <div>
-            <div className="card bg-base-100 shadow-xl">
+             <div className="card bg-base-100 shadow-xl">
                 <figure><img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{estate_title}</h2>
@@ -24,4 +24,4 @@ const ApartmentPage = ({ apartment }) => {
     );
 };
 
-export default ApartmentPage;
+export default SingleFamilyHouseCart;

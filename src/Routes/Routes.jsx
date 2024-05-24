@@ -7,6 +7,8 @@ import Root from "../Pages/Root";
 import ContactUs from "../Pages/ContactUs";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
+import ApartmentDetails from "../Pages/ApartmentDetails";
+import SingleFamilyHomeDetails from "../Pages/SingleFamilyHouses/SingleFamilyHomeDetails"
 
 const router = createBrowserRouter([
     {
@@ -27,8 +29,16 @@ const router = createBrowserRouter([
             element: <Login></Login>
         },
         {
-            path:'register',
+            path:'/register',
             element: <Register></Register>
+        },
+        {
+            path: '/Apartment/:id',
+            element: <ApartmentDetails></ApartmentDetails>
+        },
+        {
+            path: '/singleFamilyHomes/:id',
+            element: <SingleFamilyHomeDetails></SingleFamilyHomeDetails>
         }
       ]
     },
