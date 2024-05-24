@@ -11,7 +11,7 @@ const Apartments = () => {
             .then(data => setApartments(data))
     }, [])
     return (
-        <div>
+        <div className="mb-10">
             <h2 className="text-center text-3xl mb-10">Apartment</h2>
             <div className="grid md:grid-cols-3 lg:grid-cols-4 grid-cols-1 gap-5">
                 {

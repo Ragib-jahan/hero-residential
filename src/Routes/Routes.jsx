@@ -10,11 +10,16 @@ import Register from "../Pages/Register";
 import ApartmentDetails from "../Pages/ApartmentDetails";
 import SingleFamilyHousesDietails from "../Pages/SingleFamilyHouses/SingleFamilyHousesDietails";
 import PrivetRoutes from "./PrivetRoutes";
+import TownHousesDetails from "../Pages/TownHouses/TownHousesDetails";
+
+import StudentHouseDetails from "../Pages/StudentHousing/StudentHouseDetails";
+import ErrorPage from "../Pages/ErrorPage";
 
 const router = createBrowserRouter([
     {
       path: "/",
       element: <Root></Root>,
+      errorElement:  <ErrorPage></ErrorPage>,
       children: [
         {
             path: '/',
@@ -40,6 +45,14 @@ const router = createBrowserRouter([
         {
             path: '/single_family_home/:id',
             element: <PrivetRoutes><SingleFamilyHousesDietails></SingleFamilyHousesDietails></PrivetRoutes>
+        },
+        {
+            path:'/townHomes/:id',
+            element: <PrivetRoutes><TownHousesDetails></TownHousesDetails></PrivetRoutes>
+        },
+        {
+            path: '/studentHouse/:id',
+            element:<PrivetRoutes><StudentHouseDetails></StudentHouseDetails></PrivetRoutes>
         }
       ]
     },
