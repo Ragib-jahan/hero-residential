@@ -1,0 +1,55 @@
+[
+    {
+      "image": "single_family_home5.jpg",
+      "estate_title": "Modern Family Retreat with Pool and Spa",
+      "id": "SFH005",
+      "segment_name": "Single-Family Homes",
+      "description": "Contemporary 4-bedroom, 3.5-bathroom home featuring a private pool, spa, and outdoor entertainment area.",
+      "price": "$820,000",
+      "status": "sale",
+      "area": "3,200 sq ft",
+      "location": "Sunset Hills",
+      "facilities": ["Pool & Spa", "Outdoor Kitchen", "Home Theater"],
+      "button": "View Property"
+    },
+    {
+      "image": "single_family_home6.jpg",
+      "estate_title": "Historic Victorian Gem with Garden Oasis",
+      "id": "SFH006",
+      "segment_name": "Single-Family Homes",
+      "description": "Restored 5-bedroom, 4-bathroom Victorian home surrounded by lush gardens and featuring ornate architectural details.",
+      "price": "$1,200,000",
+      "status": "sale",
+      "area": "4,500 sq ft",
+      "location": "Heritage District",
+      "facilities": ["Victorian Charm", "Garden Oasis", "Detached Studio"],
+      "button": "View Property"
+    },
+    {
+      "image": "single_family_home7.jpg",
+      "estate_title": "Custom-Built Luxury Home with Panoramic Views",
+      "id": "SFH007",
+      "segment_name": "Single-Family Homes",
+      "description": "Exquisite 6-bedroom, 5-bathroom home offering unparalleled craftsmanship and breathtaking mountain views.",
+      "price": "$1,650,000",
+      "status": "sale",
+      "area": "5,800 sq ft",
+      "location": "Mountain Ridge Estates",
+      "facilities": ["Gourmet Kitchen", "Wine Cellar", "Elevator"],
+      "button": "View Property"
+    },
+    {
+      "image": "single_family_home8.jpg",
+      "estate_title": "Lakefront Retreat with Dock and Boathouse",
+      "id": "SFH008",
+      "segment_name": "Single-Family Homes",
+      "description": "Tranquil 3-bedroom, 2.5-bathroom home situated on a picturesque lakefront lot, featuring a private dock and boathouse.",
+      "price": "$950,000",
+      "status": "sale",
+      "area": "2,600 sq ft",
+      "location": "Lakeview Haven",
+      "facilities": ["Lakefront Living", "Dock & Boathouse", "Sunroom"],
+      "button": "View Property"
+    }
+  ]
+  

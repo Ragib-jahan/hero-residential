@@ -1,0 +1,56 @@
+[
+    {
+      "image": "vacation_rental2.jpg",
+      "estate_title": "Luxury Beachfront Villa with Private Pool",
+      "id": "VR002",
+      "segment_name": "Vacation Rentals",
+      "description": "Exquisite beachfront villa offering luxurious accommodations, a private pool, and direct access to a pristine sandy beach.",
+      "price": "$800/night",
+      "status": "rent",
+      "area": "4,000 sq ft",
+      "location": "Sandy Shores",
+      "facilities": ["Private Pool", "Beach Access", "Outdoor Dining Area"],
+      "button": "View Property"
+    },
+    {
+      "image": "vacation_rental3.jpg",
+      "estate_title": "Secluded Mountain Chalet with Hot Tub",
+      "id": "VR003",
+      "segment_name": "Vacation Rentals",
+      "description": "Cozy mountain chalet nestled in the woods, featuring a private hot tub, fireplace, and panoramic mountain views.",
+      "price": "$600/night",
+      "status": "rent",
+      "area": "2,500 sq ft",
+      "location": "Alpine Retreat",
+      "facilities": ["Private Hot Tub", "Fireplace", "Mountain Views"],
+      "button": "View Property"
+    },
+    {
+      "image": "vacation_rental4.jpg",
+      "estate_title": "Luxurious Ski-In/Ski-Out Chalet",
+      "id": "VR004",
+      "segment_name": "Vacation Rentals",
+      "description": "Ski-in/ski-out chalet offering upscale amenities, stunning views, and convenient access to world-class skiing and snowboarding.",
+      "price": "$1,200/night",
+      "status": "rent",
+      "area": "3,200 sq ft",
+      "location": "Powder Peak",
+      "facilities": ["Ski-In/Ski-Out Access", "Hot Tub",     "Game Room"],
+      "button": "View Property"
+    },
+    {
+      "image": "vacation_rental5.jpg",
+      "estate_title": "Seaside Cottage with Private Pier",
+      "id": "VR005",
+      "segment_name": "Vacation Rentals",
+      "description": "Quaint seaside cottage featuring a private pier, panoramic ocean views, and charming coastal decor.",
+      "price": "$500/night",
+      "status": "rent",
+      "area": "1,200 sq ft",
+      "location": "Coastal Haven",
+      "facilities": ["Private Pier", "Ocean Views", "Coastal Decor"],
+      "button": "View Property"
+    }
+  ]
+  
+  

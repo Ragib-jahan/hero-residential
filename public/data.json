@@ -1,0 +1,439 @@
+[
+    [
+        {
+            "image": "single_family_home5.jpg",
+            "estate_title": "Modern Family Retreat with Pool and Spa",
+            "id": "SFH005",
+            "segment_name": "Single-Family Homes",
+            "description": "Contemporary 4-bedroom, 3.5-bathroom home featuring a private pool, spa, and outdoor entertainment area.",
+            "price": "$820,000",
+            "status": "sale",
+            "area": "3,200 sq ft",
+            "location": "Sunset Hills",
+            "facilities": [
+                "Pool & Spa",
+                "Outdoor Kitchen",
+                "Home Theater"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "single_family_home6.jpg",
+            "estate_title": "Historic Victorian Gem with Garden Oasis",
+            "id": "SFH006",
+            "segment_name": "Single-Family Homes",
+            "description": "Restored 5-bedroom, 4-bathroom Victorian home surrounded by lush gardens and featuring ornate architectural details.",
+            "price": "$1,200,000",
+            "status": "sale",
+            "area": "4,500 sq ft",
+            "location": "Heritage District",
+            "facilities": [
+                "Victorian Charm",
+                "Garden Oasis",
+                "Detached Studio"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "single_family_home7.jpg",
+            "estate_title": "Custom-Built Luxury Home with Panoramic Views",
+            "id": "SFH007",
+            "segment_name": "Single-Family Homes",
+            "description": "Exquisite 6-bedroom, 5-bathroom home offering unparalleled craftsmanship and breathtaking mountain views.",
+            "price": "$1,650,000",
+            "status": "sale",
+            "area": "5,800 sq ft",
+            "location": "Mountain Ridge Estates",
+            "facilities": [
+                "Gourmet Kitchen",
+                "Wine Cellar",
+                "Elevator"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "single_family_home8.jpg",
+            "estate_title": "Lakefront Retreat with Dock and Boathouse",
+            "id": "SFH008",
+            "segment_name": "Single-Family Homes",
+            "description": "Tranquil 3-bedroom, 2.5-bathroom home situated on a picturesque lakefront lot, featuring a private dock and boathouse.",
+            "price": "$950,000",
+            "status": "sale",
+            "area": "2,600 sq ft",
+            "location": "Lakeview Haven",
+            "facilities": [
+                "Lakefront Living",
+                "Dock & Boathouse",
+                "Sunroom"
+            ],
+            "button": "View Property"
+        }
+    ],
+    [
+        {
+            "image": "townhouse5.jpg",
+            "estate_title": "Contemporary Townhome with Rooftop Terrace",
+            "id": "TH005",
+            "segment_name": "Townhouses",
+            "description": "Stylish 3-bedroom, 2.5-bathroom townhome boasting a rooftop terrace with stunning city skyline views.",
+            "price": "$680,000",
+            "status": "sale",
+            "area": "2,100 sq ft",
+            "location": "Metropolitan Lofts",
+            "facilities": [
+                "Rooftop Terrace",
+                "Modern Kitchen",
+                "Attached Garage"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "townhouse6.jpg",
+            "estate_title": "Urban Townhouse with Private Courtyard",
+            "id": "TH006",
+            "segment_name": "Townhouses",
+            "description": "Chic 2-bedroom, 2-bathroom townhouse featuring a secluded courtyard oasis in the heart of the city.",
+            "price": "$550,000",
+            "status": "sale",
+            "area": "1,800 sq ft",
+            "location": "City Center Enclave",
+            "facilities": [
+                "Private Courtyard",
+                "Open Floor Plan",
+                "Community Pool"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "townhouse7.jpg",
+            "estate_title": "Luxury Townhome with Modern Design",
+            "id": "TH007",
+            "segment_name": "Townhouses",
+            "description": "Sleek 4-bedroom, 3.5-bathroom townhome featuring contemporary design elements and high-end finishes throughout.",
+            "price": "$750,000",
+            "status": "sale",
+            "area": "2,400 sq ft",
+            "location": "Uptown District",
+            "facilities": [
+                "Designer Kitchen",
+                "Spa-Inspired Bathrooms",
+                "Balconies"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "townhouse8.jpg",
+            "estate_title": "Modern Townhome with Urban Garden",
+            "id": "TH008",
+            "segment_name": "Townhouses",
+            "description": "Energy-efficient 3-bedroom, 2.5-bathroom townhome featuring a rooftop garden and sustainable design features.",
+            "price": "$620,000",
+            "status": "sale",
+            "area": "2,000 sq ft",
+            "location": "Green Living Community",
+            "facilities": [
+                "Rooftop Garden",
+                "Energy-Efficient Appliances",
+                "Community Park"
+            ],
+            "button": "View Property"
+        }
+    ],
+    [
+        {
+            "image": "apartment5.jpg",
+            "estate_title": "Luxury High-Rise Apartment with City Views",
+            "id": "APT005",
+            "segment_name": "Apartments",
+            "description": "Sophisticated 2-bedroom, 2-bathroom apartment offering sweeping city views from a prestigious high-rise building.",
+            "price": "$4,000/month",
+            "status": "rent",
+            "area": "1,700 sq ft",
+            "location": "Skyline Towers",
+            "facilities": [
+                "Floor-to-Ceiling Windows",
+                "Fitness Center",
+                "Concierge Service"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "apartment6.jpg",
+            "estate_title": "Downtown Luxury Apartment with Riverfront Access",
+            "id": "APT006",
+            "segment_name": "Apartments",
+            "description": "Elegant 3-bedroom, 3-bathroom apartment featuring upscale amenities and direct access to the riverfront promenade.",
+            "price": "$6,500/month",
+            "status": "rent",
+            "area": "2,400 sq ft",
+            "location": "Riverfront Residences",
+            "facilities": [
+                "Riverfront Access",
+                "Private Balcony",
+                "Valet Parking"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "apartment7.jpg",
+            "estate_title": "Spacious Urban Loft with Industrial Flair",
+            "id": "APT007",
+            "segment_name": "Apartments",
+            "description": "Expansive 1-bedroom, 1.5-bathroom loft apartment featuring industrial-chic design elements and abundant natural light.",
+            "price": "$2,800/month",
+            "status": "rent",
+            "area": "1,200 sq ft",
+            "location": "Arts District Lofts",
+            "facilities": [
+                "High Ceilings",
+                "Exposed Brick Walls",
+                "Fitness Center"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "apartment8.jpg",
+            "estate_title": "Luxury Apartment Living in Historic Building",
+            "id": "APT008",
+            "segment_name": "Apartments",
+            "description": "Refined 2-bedroom, 2-bathroom apartment offering modern conveniences within a meticulously restored historic landmark.",
+            "price": "$3,200/month",
+            "status": "rent",
+            "area": "1,400 sq ft",
+            "location": "Heritage Towers",
+            "facilities": [
+                "Historic Charm",
+                "Modern Amenities",
+                "Rooftop Terrace"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "apartment9.jpg",
+            "estate_title": "Contemporary City Apartment with Park Views",
+            "id": "APT009",
+            "segment_name": "Apartments",
+            "description": "Contemporary 2-bedroom, 2-bathroom apartment with floor-to-ceiling windows showcasing picturesque park views.",
+            "price": "$3,500/month",
+            "status": "rent",
+            "area": "1,600 sq ft",
+            "location": "Central Park Residences",
+            "facilities": [
+                "Park Views",
+                "Modern Kitchen",
+                "Fitness Center"
+            ],
+            "button": "View Property"
+        }
+    ],
+    [
+        {
+            "image": "student_housing4.jpg",
+            "estate_title": "Modern Student Housing Complex with Study Pods",
+            "id": "SH004",
+            "segment_name": "Student Housing",
+            "description": "Contemporary student housing complex offering private bedrooms, shared study pods, and social lounges.",
+            "price": "$750/month",
+            "status": "rent",
+            "area": "350 sq ft (per room)",
+            "location": "Campus Commons",
+            "facilities": [
+                "Private Bedroom",
+                "Study Pods",
+                "Social Lounges"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "student_housing5.jpg",
+            "estate_title": "Cozy Student Apartments near University",
+            "id": "SH005",
+            "segment_name": "Student Housing",
+            "description": "Comfortable student apartments located within walking distance of the university campus, with shared common areas for socializing.",
+            "price": "$700/month",
+            "status": "rent",
+            "area": "400 sq ft (per room)",
+            "location": "University Walk",
+            "facilities": [
+                "Walking Distance to Campus",
+                "Shared Common Areas",
+                "Fitness Center"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "student_housing6.jpg",
+            "estate_title": "Student Housing Community with On-Site Amenities",
+            "id": "SH006",
+            "segment_name": "Student Housing",
+            "description": "Vibrant student housing community offering on-site amenities such as a pool, gym, and study lounges.",
+            "price": "$800/month",
+            "status": "rent",
+            "area": "300 sq ft (per room)",
+            "location": "University Commons",
+            "facilities": [
+                "Pool",
+                "Gym",
+                "Study Lounges"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "student_housing7.jpg",
+            "estate_title": "Modern Student Apartments with Outdoor Spaces",
+            "id": "SH007",
+            "segment_name": "Student Housing",
+            "description": "Modern student apartments featuring outdoor spaces for relaxation and socializing, ideal for a balanced university lifestyle.",
+            "price": "$725/month",
+            "status": "rent",
+            "area": "350 sq ft (per room)",
+            "location": "Campus Corner",
+            "facilities": [
+                "Outdoor Spaces",
+                "Social Areas",
+                "Fitness Center"
+            ],
+            "button": "View Property"
+        }
+    ],
+    [
+        {
+            "image": "senior_community2.jpg",
+            "estate_title": "Retirement Community with Resort-Style Amenities",
+            "id": "SLC002",
+            "segment_name": "Senior Living Communities",
+            "description": "Resort-style retirement community offering independent living, assisted living, and memory care services in a picturesque setting.",
+            "price": "$5,000/month",
+            "status": "rent",
+            "area": "1,500 sq ft (apartment)",
+            "location": "Sunrise Vista",
+            "facilities": [
+                "Dining Hall",
+                "Fitness Center",
+                "Swimming Pool"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "senior_community3.jpg",
+            "estate_title": "Senior Living Apartments with Scenic Views",
+            "id": "SLC003",
+            "segment_name": "Senior Living Communities",
+            "description": "Senior living apartments offering panoramic views and a range of amenities to support an active and fulfilling lifestyle.",
+            "price": "$4,500/month",
+            "status": "rent",
+            "area": "1,200 sq ft (apartment)",
+            "location": "Tranquil Heights",
+            "facilities": [
+                "Scenic Views",
+                "Community Activities",
+                "Wellness Center"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "senior_community4.jpg",
+            "estate_title": "Assisted Living Facility with Personalized Care",
+            "id": "SLC004",
+            "segment_name": "Senior Living Communities",
+            "description": "Assisted living facility providing personalized care services and engaging activities in a supportive environment.",
+            "price": "$6,000/month",
+            "status": "rent",
+            "area": "800 sq ft (apartment)",
+            "location": "Harmony Gardens",
+            "facilities": [
+                "Personalized Care",
+                "Activities Program",
+                "Community Dining"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "senior_community5.jpg",
+            "estate_title": "Independent Living Community with Social Events",
+            "id": "SLC005",
+            "segment_name": "Senior Living Communities",
+            "description": "Independent living community offering social events, wellness programs, and maintenance-free living for active seniors.",
+            "price": "$3,500/month",
+            "status": "rent",
+            "area": "1,000 sq ft (apartment)",
+            "location": "Golden Years Village",
+            "facilities": [
+                "Social Events",
+                "Wellness Programs",
+                "Maintenance-Free Living"
+            ],
+            "button": "View Property"
+        }
+    ],
+    [
+        {
+            "image": "vacation_rental2.jpg",
+            "estate_title": "Luxury Beachfront Villa with Private Pool",
+            "id": "VR002",
+            "segment_name": "Vacation Rentals",
+            "description": "Exquisite beachfront villa offering luxurious accommodations, a private pool, and direct access to a pristine sandy beach.",
+            "price": "$800/night",
+            "status": "rent",
+            "area": "4,000 sq ft",
+            "location": "Sandy Shores",
+            "facilities": [
+                "Private Pool",
+                "Beach Access",
+                "Outdoor Dining Area"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "vacation_rental3.jpg",
+            "estate_title": "Secluded Mountain Chalet with Hot Tub",
+            "id": "VR003",
+            "segment_name": "Vacation Rentals",
+            "description": "Cozy mountain chalet nestled in the woods, featuring a private hot tub, fireplace, and panoramic mountain views.",
+            "price": "$600/night",
+            "status": "rent",
+            "area": "2,500 sq ft",
+            "location": "Alpine Retreat",
+            "facilities": [
+                "Private Hot Tub",
+                "Fireplace",
+                "Mountain Views"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "vacation_rental4.jpg",
+            "estate_title": "Luxurious Ski-In/Ski-Out Chalet",
+            "id": "VR004",
+            "segment_name": "Vacation Rentals",
+            "description": "Ski-in/ski-out chalet offering upscale amenities, stunning views, and convenient access to world-class skiing and snowboarding.",
+            "price": "$1,200/night",
+            "status": "rent",
+            "area": "3,200 sq ft",
+            "location": "Powder Peak",
+            "facilities": [
+                "Ski-In/Ski-Out Access",
+                "Hot Tub",
+                "Game Room"
+            ],
+            "button": "View Property"
+        },
+        {
+            "image": "vacation_rental5.jpg",
+            "estate_title": "Seaside Cottage with Private Pier",
+            "id": "VR005",
+            "segment_name": "Vacation Rentals",
+            "description": "Quaint seaside cottage featuring a private pier, panoramic ocean views, and charming coastal decor.",
+            "price": "$500/night",
+            "status": "rent",
+            "area": "1,200 sq ft",
+            "location": "Coastal Haven",
+            "facilities": [
+                "Private Pier",
+                "Ocean Views",
+                "Coastal Decor"
+            ],
+            "button": "View Property"
+        }
+    ]
+]

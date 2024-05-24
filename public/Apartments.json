@@ -1,0 +1,69 @@
+[
+    {
+      "image": "apartment5.jpg",
+      "estate_title": "Luxury High-Rise Apartment with City Views",
+      "id": "APT005",
+      "segment_name": "Apartments",
+      "description": "Sophisticated 2-bedroom, 2-bathroom apartment offering sweeping city views from a prestigious high-rise building.",
+      "price": "$4,000/month",
+      "status": "rent",
+      "area": "1,700 sq ft",
+      "location": "Skyline Towers",
+      "facilities": ["Floor-to-Ceiling Windows", "Fitness Center", "Concierge Service"],
+      "button": "View Property"
+    },
+    {
+      "image": "apartment6.jpg",
+      "estate_title": "Downtown Luxury Apartment with Riverfront Access",
+      "id": "APT006",
+      "segment_name": "Apartments",
+      "description": "Elegant 3-bedroom, 3-bathroom apartment featuring upscale amenities and direct access to the riverfront promenade.",
+      "price": "$6,500/month",
+      "status": "rent",
+      "area": "2,400 sq ft",
+      "location": "Riverfront Residences",
+      "facilities": ["Riverfront Access", "Private Balcony", "Valet Parking"],
+      "button": "View Property"
+    },
+    {
+        "image": "apartment7.jpg",
+        "estate_title": "Spacious Urban Loft with Industrial Flair",
+        "id": "APT007",
+        "segment_name": "Apartments",
+        "description": "Expansive 1-bedroom, 1.5-bathroom loft apartment featuring industrial-chic design elements and abundant natural light.",
+        "price": "$2,800/month",
+        "status": "rent",
+        "area": "1,200 sq ft",
+        "location": "Arts District Lofts",
+        "facilities": ["High Ceilings", "Exposed Brick Walls", "Fitness Center"],
+        "button": "View Property"
+      },
+      {
+        "image": "apartment8.jpg",
+        "estate_title": "Luxury Apartment Living in Historic Building",
+        "id": "APT008",
+        "segment_name": "Apartments",
+        "description": "Refined 2-bedroom, 2-bathroom apartment offering modern conveniences within a meticulously restored historic landmark.",
+        "price": "$3,200/month",
+        "status": "rent",
+        "area": "1,400 sq ft",
+        "location": "Heritage Towers",
+        "facilities": ["Historic Charm", "Modern Amenities", "Rooftop Terrace"],
+        "button": "View Property"
+      },
+      {
+        "image": "apartment9.jpg",
+        "estate_title": "Contemporary City Apartment with Park Views",
+        "id": "APT009",
+        "segment_name": "Apartments",
+        "description": "Contemporary 2-bedroom, 2-bathroom apartment with floor-to-ceiling windows showcasing picturesque park views.",
+        "price": "$3,500/month",
+        "status": "rent",
+        "area": "1,600 sq ft",
+        "location": "Central Park Residences",
+        "facilities": ["Park Views", "Modern Kitchen", "Fitness Center"],
+        "button": "View Property"
+      }
+    ]
+    
+  

@@ -1,0 +1,55 @@
+[
+    {
+      "image": "townhouse5.jpg",
+      "estate_title": "Contemporary Townhome with Rooftop Terrace",
+      "id": "TH005",
+      "segment_name": "Townhouses",
+      "description": "Stylish 3-bedroom, 2.5-bathroom townhome boasting a rooftop terrace with stunning city skyline views.",
+      "price": "$680,000",
+      "status": "sale",
+      "area": "2,100 sq ft",
+      "location": "Metropolitan Lofts",
+      "facilities": ["Rooftop Terrace", "Modern Kitchen", "Attached Garage"],
+      "button": "View Property"
+    },
+    {
+      "image": "townhouse6.jpg",
+      "estate_title": "Urban Townhouse with Private Courtyard",
+      "id": "TH006",
+      "segment_name": "Townhouses",
+      "description": "Chic 2-bedroom, 2-bathroom townhouse featuring a secluded courtyard oasis in the heart of the city.",
+      "price": "$550,000",
+      "status": "sale",
+      "area": "1,800 sq ft",
+      "location": "City Center Enclave",
+      "facilities": ["Private Courtyard", "Open Floor Plan", "Community Pool"],
+      "button": "View Property"
+    },
+    {
+      "image": "townhouse7.jpg",
+      "estate_title": "Luxury Townhome with Modern Design",
+      "id": "TH007",
+      "segment_name": "Townhouses",
+      "description": "Sleek 4-bedroom, 3.5-bathroom townhome featuring contemporary design elements and high-end finishes throughout.",
+      "price": "$750,000",
+      "status": "sale",
+      "area": "2,400 sq ft",
+      "location": "Uptown District",
+      "facilities": ["Designer Kitchen", "Spa-Inspired Bathrooms", "Balconies"],
+      "button": "View Property"
+    },
+    {
+      "image": "townhouse8.jpg",
+      "estate_title": "Modern Townhome with Urban Garden",
+      "id": "TH008",
+      "segment_name": "Townhouses",
+      "description": "Energy-efficient 3-bedroom, 2.5-bathroom townhome featuring a rooftop garden and sustainable design features.",
+      "price": "$620,000",
+      "status": "sale",
+      "area": "2,000 sq ft",
+      "location": "Green Living Community",
+      "facilities": ["Rooftop Garden", "Energy-Efficient Appliances", "Community Park"],
+      "button": "View Property"
+    }
+  ]
+  

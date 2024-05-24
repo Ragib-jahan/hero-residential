@@ -1,0 +1,55 @@
+[
+    {
+      "image": "senior_community2.jpg",
+      "estate_title": "Retirement Community with Resort-Style Amenities",
+      "id": "SLC002",
+      "segment_name": "Senior Living Communities",
+      "description": "Resort-style retirement community offering independent living, assisted living, and memory care services in a picturesque setting.",
+      "price": "$5,000/month",
+      "status": "rent",
+      "area": "1,500 sq ft (apartment)",
+      "location": "Sunrise Vista",
+      "facilities": ["Dining Hall", "Fitness Center", "Swimming Pool"],
+      "button": "View Property"
+    },
+    {
+      "image": "senior_community3.jpg",
+      "estate_title": "Senior Living Apartments with Scenic Views",
+      "id": "SLC003",
+      "segment_name": "Senior Living Communities",
+      "description": "Senior living apartments offering panoramic views and a range of amenities to support an active and fulfilling lifestyle.",
+      "price": "$4,500/month",
+      "status": "rent",
+      "area": "1,200 sq ft (apartment)",
+      "location": "Tranquil Heights",
+      "facilities": ["Scenic Views", "Community Activities", "Wellness Center"],
+      "button": "View Property"
+    },
+    {
+      "image": "senior_community4.jpg",
+      "estate_title": "Assisted Living Facility with Personalized Care",
+      "id": "SLC004",
+      "segment_name": "Senior Living Communities",
+      "description": "Assisted living facility providing personalized care services and engaging activities in a supportive environment.",
+      "price": "$6,000/month",
+      "status": "rent",
+      "area": "800 sq ft (apartment)",
+      "location": "Harmony Gardens",
+      "facilities": ["Personalized Care", "Activities Program", "Community Dining"],
+      "button": "View Property"
+    },
+    {
+      "image": "senior_community5.jpg",
+      "estate_title": "Independent Living Community with Social Events",
+      "id": "SLC005",
+      "segment_name": "Senior Living Communities",
+      "description": "Independent living community offering social events, wellness programs, and maintenance-free living for active seniors.",
+      "price": "$3,500/month",
+      "status": "rent",
+      "area": "1,000 sq ft (apartment)",
+      "location": "Golden Years Village",
+      "facilities": ["Social Events", "Wellness Programs", "Maintenance-Free Living"],
+      "button": "View Property"
+    }
+  ]
+  

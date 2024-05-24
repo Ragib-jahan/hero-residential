@@ -1,0 +1,55 @@
+[
+    {
+      "image": "student_housing4.jpg",
+      "estate_title": "Modern Student Housing Complex with Study Pods",
+      "id": "SH004",
+      "segment_name": "Student Housing",
+      "description": "Contemporary student housing complex offering private bedrooms, shared study pods, and social lounges.",
+      "price": "$750/month",
+      "status": "rent",
+      "area": "350 sq ft (per room)",
+      "location": "Campus Commons",
+      "facilities": ["Private Bedroom", "Study Pods", "Social Lounges"],
+      "button": "View Property"
+    },
+    {
+      "image": "student_housing5.jpg",
+      "estate_title": "Cozy Student Apartments near University",
+      "id": "SH005",
+      "segment_name": "Student Housing",
+      "description": "Comfortable student apartments located within walking distance of the university campus, with shared common areas for socializing.",
+      "price": "$700/month",
+      "status": "rent",
+      "area": "400 sq ft (per room)",
+      "location": "University Walk",
+      "facilities": ["Walking Distance to Campus", "Shared Common Areas", "Fitness Center"],
+      "button": "View Property"
+    },
+    {
+      "image": "student_housing6.jpg",
+      "estate_title": "Student Housing Community with On-Site Amenities",
+      "id": "SH006",
+      "segment_name": "Student Housing",
+      "description": "Vibrant student housing community offering on-site amenities such as a pool, gym, and study lounges.",
+      "price": "$800/month",
+      "status": "rent",
+      "area": "300 sq ft (per room)",
+      "location": "University Commons",
+      "facilities": ["Pool", "Gym", "Study Lounges"],
+      "button": "View Property"
+    },
+    {
+      "image": "student_housing7.jpg",
+      "estate_title": "Modern Student Apartments with Outdoor Spaces",
+      "id": "SH007",
+      "segment_name": "Student Housing",
+      "description": "Modern student apartments featuring outdoor spaces for relaxation and socializing, ideal for a balanced university lifestyle.",
+      "price": "$725/month",
+      "status": "rent",
+      "area": "350 sq ft (per room)",
+      "location": "Campus Corner",
+      "facilities": ["Outdoor Spaces", "Social Areas", "Fitness Center"],
+      "button": "View Property"
+    }
+  ]
+  
