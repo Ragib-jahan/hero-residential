@@ -4,14 +4,14 @@ import { Navigate } from "react-router-dom";
 
 
 
-const PrivetRoutes = ({children}) => {
-const {user} = useContext(AuthContext)
-    if(user){
-return children
+const PrivetRoutes = ({ children }) => {
+    const { user } = useContext(AuthContext)
+    if (user) {
+        return children
     }
-    return <Navigate state={children} to='/login'></Navigate>
-        
-   
+    return <Navigate to='/login'></Navigate>
+
+
 };
 
 export default PrivetRoutes;

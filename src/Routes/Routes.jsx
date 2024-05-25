@@ -16,6 +16,7 @@ import StudentHouseDetails from "../Pages/StudentHousing/StudentHouseDetails";
 import ErrorPage from "../Pages/ErrorPage";
 import SinorLivingCommunitesDetails from "../Pages/SiniorLivingCommunites/SinorLivingCommunitesDetails";
 import VacationRentalsDetails from "../Pages/VacationRentals/VacationRentalsDetails";
+import Profile from "../Pages/Profile/Profile";
 
 const router = createBrowserRouter([
     {
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
         {
             path:'/vacationRental/:id',
             element: <PrivetRoutes><VacationRentalsDetails></VacationRentalsDetails></PrivetRoutes>
+        },
+        {
+            path: '/profile',
+            element: <PrivetRoutes><Profile></Profile></PrivetRoutes>
         }
       ]
     },
