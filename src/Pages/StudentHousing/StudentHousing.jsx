@@ -6,7 +6,7 @@ import StudentHouingCard from "./StudentHouingCard";
 const StudentHousing = () => {
     const [studentHousing, setStudentHousing] = useState([])
     useEffect(() => {
-        fetch('simgleFamilyHomes.json')
+        fetch('studentHousing.json')
             .then(reg => reg.json())
             .then(data => setStudentHousing(data))
     }, [])

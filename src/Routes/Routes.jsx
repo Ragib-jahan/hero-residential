@@ -14,6 +14,8 @@ import TownHousesDetails from "../Pages/TownHouses/TownHousesDetails";
 
 import StudentHouseDetails from "../Pages/StudentHousing/StudentHouseDetails";
 import ErrorPage from "../Pages/ErrorPage";
+import SinorLivingCommunitesDetails from "../Pages/SiniorLivingCommunites/SinorLivingCommunitesDetails";
+import VacationRentalsDetails from "../Pages/VacationRentals/VacationRentalsDetails";
 
 const router = createBrowserRouter([
     {
@@ -53,6 +55,14 @@ const router = createBrowserRouter([
         {
             path: '/studentHouse/:id',
             element:<PrivetRoutes><StudentHouseDetails></StudentHouseDetails></PrivetRoutes>
+        },
+        {
+            path: '/SinorLivingCommunites/:id',
+            element:<PrivetRoutes><SinorLivingCommunitesDetails></SinorLivingCommunitesDetails></PrivetRoutes>
+        },
+        {
+            path:'/vacationRental/:id',
+            element: <PrivetRoutes><VacationRentalsDetails></VacationRentalsDetails></PrivetRoutes>
         }
       ]
     },

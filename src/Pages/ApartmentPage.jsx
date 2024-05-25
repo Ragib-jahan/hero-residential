@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 
 const ApartmentPage = ({ apartment }) => {
-    const {estate_title, description, id, area, price, status} = apartment
+    const {estate_title, description, id, area, price, status, image} = apartment
     return (
         <div>
             <div className="card bg-base-100 shadow-xl">
-                <figure><img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                <figure><img src={image} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{estate_title}</h2>
                     <button className="btn bg-white border-green-600">Status: {status}</button>

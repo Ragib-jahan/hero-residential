@@ -1,6 +1,6 @@
 [
     {
-      "image": "vacation_rental2.jpg",
+      "image": "https://img.thetopvillas.com/4901/crop/3840x2882/1576574055b787dcd77bc6f4cc0461c53c.jpg",
       "estate_title": "Luxury Beachfront Villa with Private Pool",
       "id": "VR002",
       "segment_name": "Vacation Rentals",
@@ -13,7 +13,7 @@
       "button": "View Property"
     },
     {
-      "image": "vacation_rental3.jpg",
+      "image": "https://cdn.liverez.com/5/13939/1/180211/550/1.jpg",
       "estate_title": "Secluded Mountain Chalet with Hot Tub",
       "id": "VR003",
       "segment_name": "Vacation Rentals",
@@ -26,7 +26,7 @@
       "button": "View Property"
     },
     {
-      "image": "vacation_rental4.jpg",
+      "image": "https://visitpalmsprings.com/wp-content/uploads/2020/06/64ee9f05-bb46-49af-9046-266ae753b7fd-750x570.jpg",
       "estate_title": "Luxurious Ski-In/Ski-Out Chalet",
       "id": "VR004",
       "segment_name": "Vacation Rentals",
@@ -39,7 +39,7 @@
       "button": "View Property"
     },
     {
-      "image": "vacation_rental5.jpg",
+      "image": "https://a0.muscache.com/im/pictures/miso/Hosting-51156025/original/f0d66fad-3dd7-49a7-bb55-672de41290c3.jpeg?im_w=720",
       "estate_title": "Seaside Cottage with Private Pier",
       "id": "VR005",
       "segment_name": "Vacation Rentals",

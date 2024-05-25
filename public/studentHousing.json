@@ -1,6 +1,6 @@
 [
     {
-      "image": "student_housing4.jpg",
+      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZGVudCUyMGhvdXNpbmd8ZW58MHx8MHx8fDA%3D",
       "estate_title": "Modern Student Housing Complex with Study Pods",
       "id": "SH004",
       "segment_name": "Student Housing",
@@ -13,7 +13,7 @@
       "button": "View Property"
     },
     {
-      "image": "student_housing5.jpg",
+      "image": "https://erudera.com/media/images/student_beds.width-800.jpg",
       "estate_title": "Cozy Student Apartments near University",
       "id": "SH005",
       "segment_name": "Student Housing",
@@ -26,7 +26,7 @@
       "button": "View Property"
     },
     {
-      "image": "student_housing6.jpg",
+      "image": "https://bunk-backpackers-fortitude-valley-au.booked.net/data/Photos/OriginalPhoto/12203/1220305/1220305243/Bunk-Brisbane-Hostel-Fortitude-Valley-Exterior.JPEG",
       "estate_title": "Student Housing Community with On-Site Amenities",
       "id": "SH006",
       "segment_name": "Student Housing",
@@ -39,7 +39,7 @@
       "button": "View Property"
     },
     {
-      "image": "student_housing7.jpg",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipN73VRoIQRIEFF5RF_4UxKcLi-VPNM0DsleK0_G",
       "estate_title": "Modern Student Apartments with Outdoor Spaces",
       "id": "SH007",
       "segment_name": "Student Housing",

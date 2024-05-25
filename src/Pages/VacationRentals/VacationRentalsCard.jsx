@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 
-
-const TownHousesCard = ({townHome}) => {
-    const {estate_title, description, id, area, price, status, image} = townHome
-    console.log(townHome)
+const VacationRentalsCard = ({ vacationRental }) => {
+    const {estate_title, description, id, area, price, status, image} = vacationRental
     return (
         <div>
             <div className="card bg-base-100 shadow-xl">
@@ -17,7 +15,7 @@ const TownHousesCard = ({townHome}) => {
                         <button className="btn bg-white border-green-600 ">Price: {price}</button>
                     </div>
                     <div className="">
-                        <Link to={`/townHomes/${id}`}><button className="btn w-full btn-primary">View Property</button></Link>
+                        <Link to={`/vacationRental/${id}`}><button className="btn w-full btn-primary">View Property</button></Link>
                     </div>
                 </div>
             </div>
@@ -25,4 +23,4 @@ const TownHousesCard = ({townHome}) => {
     );
 };
 
-export default TownHousesCard;
+export default VacationRentalsCard;

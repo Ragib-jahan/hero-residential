@@ -1,6 +1,6 @@
 [
     {
-      "image": "townhouse5.jpg",
+      "image": "https://photos-a.propertyimages.ie/media/9/6/9/4787969/1650ff61-a270-47e6-984c-19629277c908_l.jpg",
       "estate_title": "Contemporary Townhome with Rooftop Terrace",
       "id": "TH005",
       "segment_name": "Townhouses",
@@ -13,7 +13,7 @@
       "button": "View Property"
     },
     {
-      "image": "townhouse6.jpg",
+      "image": "https://www.nawy.com/blog/wp-content/uploads/2022/05/townhouse-in-o-west-6-october.jpg",
       "estate_title": "Urban Townhouse with Private Courtyard",
       "id": "TH006",
       "segment_name": "Townhouses",
@@ -26,7 +26,7 @@
       "button": "View Property"
     },
     {
-      "image": "townhouse7.jpg",
+      "image": "https://realestate.eg/ckfinder/userfiles/images/townhouses-for-sale-in-alkarma-gates/townhouse%20for%20sale%20in%20al%20karma%20gates.jpg",
       "estate_title": "Luxury Townhome with Modern Design",
       "id": "TH007",
       "segment_name": "Townhouses",
@@ -39,7 +39,7 @@
       "button": "View Property"
     },
     {
-      "image": "townhouse8.jpg",
+      "image": "https://static.immoweb.be/photos/1/1/3/6/9/8/2/4/11369824_1.jpg?cache=20240508023532",
       "estate_title": "Modern Townhome with Urban Garden",
       "id": "TH008",
       "segment_name": "Townhouses",

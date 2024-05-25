@@ -1,6 +1,6 @@
 [
     {
-      "image": "apartment5.jpg",
+      "image": "https://buniyadsalesforce.s3.ap-south-1.amazonaws.com/Default-Images/Detail/Residential/Builder-Floor-Apartment/5.jpg",
       "estate_title": "Luxury High-Rise Apartment with City Views",
       "id": "APT005",
       "segment_name": "Apartments",
@@ -13,7 +13,7 @@
       "button": "View Property"
     },
     {
-      "image": "apartment6.jpg",
+      "image": "https://property-images-uk.s3.eu-west-2.amazonaws.com/i/8e3272c69c6671fa99d151c758b30657.jpg",
       "estate_title": "Downtown Luxury Apartment with Riverfront Access",
       "id": "APT006",
       "segment_name": "Apartments",
@@ -26,7 +26,7 @@
       "button": "View Property"
     },
     {
-        "image": "apartment7.jpg",
+        "image": "https://media.onthemarket.com/properties/14068000/1468476758/image-0-480x320.jpg",
         "estate_title": "Spacious Urban Loft with Industrial Flair",
         "id": "APT007",
         "segment_name": "Apartments",
@@ -39,7 +39,7 @@
         "button": "View Property"
       },
       {
-        "image": "apartment8.jpg",
+        "image": "https://lid.zoocdn.com/645/430/7ff772382e6bce14c3250c033ff4a80c337c119c.jpg",
         "estate_title": "Luxury Apartment Living in Historic Building",
         "id": "APT008",
         "segment_name": "Apartments",
@@ -52,7 +52,7 @@
         "button": "View Property"
       },
       {
-        "image": "apartment9.jpg",
+        "image": "https://media.rightmove.co.uk/dir/3k/2083/144677912/2083_SOU116125_IMG_08_0000_max_656x437.jpeg",
         "estate_title": "Contemporary City Apartment with Park Views",
         "id": "APT009",
         "segment_name": "Apartments",
