@@ -1,12 +1,16 @@
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FaRegEyeSlash, FaEye } from "react-icons/fa6";
 
 const Register = () => {
-
+    useEffect(() => {
+        document.title = "Register"
+    }, [])
     const { register } = useContext(AuthContext);
+    const [passwordShow, setPasswordShow] = useState(true);
 
     const handleRegister = e => {
         e.preventDefault();
@@ -53,12 +57,16 @@ const Register = () => {
                     </label>
                     <input type="text" name="photoURL" placeholder="Photo URL" className="input input-bordered" required />
                 </div>
-                <div className="form-control">
+                <div className="form-control relative">
                     <label className="label">
                         <span className="label-text">Password</span>
                     </label>
-                    <input type="password" name="password" placeholder="Password" className="input input-bordered" required />
+                    <input type={passwordShow ? 'Password' : 'text'} name='password' placeholder="Password" className="input input-bordered" required />
                     <label className="label">
+                        <div className="absolute right-10 top-12" onClick={() => setPasswordShow(!passwordShow)}>
+                            {passwordShow ? <FaRegEyeSlash className="text-2xl"/> : <FaEye className="text-2xl" />}
+                        </div>
+
                         <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                     </label>
                 </div>

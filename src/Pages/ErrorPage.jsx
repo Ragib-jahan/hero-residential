@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useRouteError } from "react-router-dom";
 
 
@@ -5,6 +6,10 @@ const ErrorPage = () => {
 
     const error = useRouteError();
     console.log(error)
+
+    useEffect(()=>{
+        document.title = "Error"
+    },[])
     return (
         <div className="h-screen flex justify-center items-center">
             <div className="text-3xl">

@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
+    useEffect(()=>{
+        document.title = "Login"
+    },[])
 
     const { login, google } = useContext(AuthContext);
 

@@ -1,6 +1,12 @@
+import { useEffect } from "react";
 
 
 const ContactUs = () => {
+
+    useEffect(() => {
+        document.title = "Contact Us"
+    }, [])
+
     return (
         <div>
             <h2 className="text-center mb-5">Contact Us</h2>
@@ -20,10 +26,10 @@ const ContactUs = () => {
                         <label className="form-control">
                             <div className="label">
                                 <span className="label-text">Your Message</span>
-                                
+
                             </div>
                             <textarea className="textarea textarea-bordered h-24" placeholder="Message"></textarea>
-                            
+
                         </label>
                     </div>
                     <div className="form-control mt-6">
