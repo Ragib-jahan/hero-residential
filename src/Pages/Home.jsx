@@ -28,8 +28,9 @@ const Home = () => {
     console.log(segments)
     return (
         <div>
-            <div>
+            <div className="z-0">
                 <Swiper
+                
                     cssMode={true}
                     navigation={true}
                     pagination={true}
@@ -38,7 +39,7 @@ const Home = () => {
                     modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                     className="mySwiper"
                 >
-                    <SwiperSlide><img className="w-full" src={img1} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={img1} alt="" /></SwiperSlide>
                     <SwiperSlide><img src={img2} alt="" /></SwiperSlide>
                     <SwiperSlide><img src={img3} alt="" /></SwiperSlide>
                 </Swiper>
