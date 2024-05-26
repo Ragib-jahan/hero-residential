@@ -8,9 +8,15 @@ import SinorLivingCommunites from "./SiniorLivingCommunites/SinorLivingCommunite
 import VacationRentals from "./VacationRentals/VacationRentals";
 import { useEffect } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 // Import Swiper styles
 import 'swiper/css';
+import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
+import img1 from '../assets/Black Simple Beautiful Nature Email Header.png';
+import img2 from '../assets/Blue Professional Corporate Email Header (1) (1).png';
+import img3 from '../assets/Banner 3 (1).png';
 
 const Home = () => {
 
@@ -23,36 +29,19 @@ const Home = () => {
     return (
         <div>
             <div>
-                <div className="carousel w-full">
-                    <div id="slide1" className="carousel-item relative w-full">
-                        <img  src="https://cre.moodysanalytics.com//app/uploads/2024/01/AdobeStock_619590612.jpg" className="w-full md:h-[400px]" />
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide4" className="btn btn-circle">❮</a>
-                            <a href="#slide2" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide2" className="carousel-item relative w-full">
-                        <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full" />
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide1" className="btn btn-circle">❮</a>
-                            <a href="#slide3" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide3" className="carousel-item relative w-full">
-                        <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" className="w-full" />
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide2" className="btn btn-circle">❮</a>
-                            <a href="#slide4" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide4" className="carousel-item relative w-full">
-                        <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" className="w-full" />
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide3" className="btn btn-circle">❮</a>
-                            <a href="#slide1" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                </div>
+                <Swiper
+                    cssMode={true}
+                    navigation={true}
+                    pagination={true}
+                    mousewheel={true}
+                    keyboard={true}
+                    modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+                    className="mySwiper"
+                >
+                    <SwiperSlide><img className="w-full" src={img1} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={img2} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={img3} alt="" /></SwiperSlide>
+                </Swiper>
             </div>
             <SingleFamilyHouses></SingleFamilyHouses>
             <TownHouses></TownHouses>
