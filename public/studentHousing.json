@@ -10,6 +10,7 @@
       "area": "350 sq ft (per room)",
       "location": "Campus Commons",
       "facilities": ["Private Bedroom", "Study Pods", "Social Lounges"],
+      "coordinates": [36.162663, -86.781602],
       "button": "View Property"
     },
     {
@@ -23,6 +24,7 @@
       "area": "400 sq ft (per room)",
       "location": "University Walk",
       "facilities": ["Walking Distance to Campus", "Shared Common Areas", "Fitness Center"],
+      "coordinates": [40.807536, -73.962573],
       "button": "View Property"
     },
     {
@@ -36,6 +38,7 @@
       "area": "300 sq ft (per room)",
       "location": "University Commons",
       "facilities": ["Pool", "Gym", "Study Lounges"],
+      "coordinates": [34.068921, -118.445181],
       "button": "View Property"
     },
     {
@@ -49,6 +52,7 @@
       "area": "350 sq ft (per room)",
       "location": "Campus Corner",
       "facilities": ["Outdoor Spaces", "Social Areas", "Fitness Center"],
+      "coordinates": [29.651634, -82.324829],
       "button": "View Property"
     }
   ]

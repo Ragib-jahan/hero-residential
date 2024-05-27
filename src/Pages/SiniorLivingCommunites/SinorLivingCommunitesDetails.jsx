@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import { useLoaderData, useParams } from 'react-router-dom';
 
 const SinorLivingCommunitesDetails = () => {
@@ -8,7 +9,9 @@ const SinorLivingCommunitesDetails = () => {
 
     const find = seniorLivingCommunities.find(seniorLivingCommunitie => seniorLivingCommunitie.id == id)
     console.log(find)
-    const { image, estate_title, segment_name, description, status, price, area, location } = find
+    const { image, estate_title, segment_name, description, status, price, area, location, coordinates } = find
+
+    const position = coordinates
 
     useEffect(() => {
         document.title = `${estate_title}`
@@ -34,6 +37,19 @@ const SinorLivingCommunitesDetails = () => {
                     </div>
                 </div>
 
+            </div>
+            <div className="mt-10 ">
+                <MapContainer className="" center={position} zoom={40} scrollWheelZoom={false} style={{ height: "400px", width: "100%" }}>
+                    <TileLayer
+                        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    />
+                    <Marker position={position}>
+                        <Popup>
+                            {location}
+                        </Popup>
+                    </Marker>
+                </MapContainer>
             </div>
         </div>
     );

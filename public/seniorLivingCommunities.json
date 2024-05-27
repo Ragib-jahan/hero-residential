@@ -10,6 +10,7 @@
       "area": "1,500 sq ft (apartment)",
       "location": "Sunrise Vista",
       "facilities": ["Dining Hall", "Fitness Center", "Swimming Pool"],
+      "coordinates": [33.448376, -112.074036],
       "button": "View Property"
     },
     {
@@ -23,6 +24,7 @@
       "area": "1,200 sq ft (apartment)",
       "location": "Tranquil Heights",
       "facilities": ["Scenic Views", "Community Activities", "Wellness Center"],
+      "coordinates": [47.606209, -122.332069],
       "button": "View Property"
     },
     {
@@ -36,6 +38,7 @@
       "area": "800 sq ft (apartment)",
       "location": "Harmony Gardens",
       "facilities": ["Personalized Care", "Activities Program", "Community Dining"],
+      "coordinates": [39.739236, -104.990251],
       "button": "View Property"
     },
     {
@@ -49,6 +52,7 @@
       "area": "1,000 sq ft (apartment)",
       "location": "Golden Years Village",
       "facilities": ["Social Events", "Wellness Programs", "Maintenance-Free Living"],
+      "coordinates": [32.715736, -117.161087],
       "button": "View Property"
     }
   ]

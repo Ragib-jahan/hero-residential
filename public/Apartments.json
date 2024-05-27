@@ -10,6 +10,7 @@
       "area": "1,700 sq ft",
       "location": "Skyline Towers",
       "facilities": ["Floor-to-Ceiling Windows", "Fitness Center", "Concierge Service"],
+      "coordinates": [40.712776, -74.005974],
       "button": "View Property"
     },
     {
@@ -23,6 +24,7 @@
       "area": "2,400 sq ft",
       "location": "Riverfront Residences",
       "facilities": ["Riverfront Access", "Private Balcony", "Valet Parking"],
+      "coordinates": [41.878113, -87.629799],
       "button": "View Property"
     },
     {
@@ -36,6 +38,7 @@
         "area": "1,200 sq ft",
         "location": "Arts District Lofts",
         "facilities": ["High Ceilings", "Exposed Brick Walls", "Fitness Center"],
+        "coordinates": [34.052235, -118.243683],
         "button": "View Property"
       },
       {
@@ -49,6 +52,7 @@
         "area": "1,400 sq ft",
         "location": "Heritage Towers",
         "facilities": ["Historic Charm", "Modern Amenities", "Rooftop Terrace"],
+        "coordinates": [38.907192, -77.036873],
         "button": "View Property"
       },
       {
@@ -62,6 +66,7 @@
         "area": "1,600 sq ft",
         "location": "Central Park Residences",
         "facilities": ["Park Views", "Modern Kitchen", "Fitness Center"],
+        "coordinates": [40.785091, -73.968285],
         "button": "View Property"
       }
     ]

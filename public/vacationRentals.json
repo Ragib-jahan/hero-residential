@@ -10,6 +10,7 @@
       "area": "4,000 sq ft",
       "location": "Sandy Shores",
       "facilities": ["Private Pool", "Beach Access", "Outdoor Dining Area"],
+      "coordinates": [26.122439, -80.137317],
       "button": "View Property"
     },
     {
@@ -23,6 +24,7 @@
       "area": "2,500 sq ft",
       "location": "Alpine Retreat",
       "facilities": ["Private Hot Tub", "Fireplace", "Mountain Views"],
+      "coordinates": [39.550051, -105.782067],
       "button": "View Property"
     },
     {
@@ -36,6 +38,7 @@
       "area": "3,200 sq ft",
       "location": "Powder Peak",
       "facilities": ["Ski-In/Ski-Out Access", "Hot Tub",     "Game Room"],
+      "coordinates": [45.523064, -122.676483],
       "button": "View Property"
     },
     {
@@ -49,6 +52,7 @@
       "area": "1,200 sq ft",
       "location": "Coastal Haven",
       "facilities": ["Private Pier", "Ocean Views", "Coastal Decor"],
+      "coordinates": [34.019454, -118.491191],
       "button": "View Property"
     }
   ]
