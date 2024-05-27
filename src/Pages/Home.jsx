@@ -28,7 +28,7 @@ const Home = () => {
     console.log(segments)
     return (
         <div>
-            <div className="z-0">
+            <div className="">
                 <Swiper
                 
                     cssMode={true}

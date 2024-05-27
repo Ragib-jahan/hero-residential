@@ -5,7 +5,7 @@ const SingleFamilyHouseCart = ({singleFamilyHome}) => {
     const {estate_title, description, id, area, price, status, image} = singleFamilyHome
     return (
         <div>
-             <div className="card bg-base-100 shadow-xl">
+             <div className=" h-[600px] card bg-base-100 shadow-xl">
                 <figure><img src={image} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{estate_title}</h2>
