@@ -14,6 +14,7 @@ const SingleFamilyHousesDietails = () => {
 
     useEffect(() => {
         document.title = `${estate_title}`
+        window.scrollTo(0, 0)
     }, [])
     return (
         <div>

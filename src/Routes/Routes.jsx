@@ -43,7 +43,8 @@ const router = createBrowserRouter([
         },
         {
             path: '/Apartment/:id',
-            element: <PrivetRoutes><ApartmentDetails></ApartmentDetails></PrivetRoutes>
+            element: <PrivetRoutes><ApartmentDetails></ApartmentDetails></PrivetRoutes>,
+            loader: ()=> fetch('/Apartments.json')
         },
         {
             path: '/single_family_home/:id',
@@ -53,19 +54,23 @@ const router = createBrowserRouter([
         },
         {
             path:'/townHomes/:id',
-            element: <PrivetRoutes><TownHousesDetails></TownHousesDetails></PrivetRoutes>
+            element: <PrivetRoutes><TownHousesDetails></TownHousesDetails></PrivetRoutes>,
+            loader: ()=> fetch('/townHouse.json')
         },
         {
             path: '/studentHouse/:id',
-            element:<PrivetRoutes><StudentHouseDetails></StudentHouseDetails></PrivetRoutes>
+            element:<PrivetRoutes><StudentHouseDetails></StudentHouseDetails></PrivetRoutes>,
+            loader: ()=> fetch('/studentHousing.json')
         },
         {
             path: '/SinorLivingCommunites/:id',
-            element:<PrivetRoutes><SinorLivingCommunitesDetails></SinorLivingCommunitesDetails></PrivetRoutes>
+            element:<PrivetRoutes><SinorLivingCommunitesDetails></SinorLivingCommunitesDetails></PrivetRoutes>,
+            loader: ()=> fetch('/seniorLivingCommunities.json')
         },
         {
             path:'/vacationRental/:id',
-            element: <PrivetRoutes><VacationRentalsDetails></VacationRentalsDetails></PrivetRoutes>
+            element: <PrivetRoutes><VacationRentalsDetails></VacationRentalsDetails></PrivetRoutes>,
+            loader: ()=> fetch('/vacationRentals.json')
         },
         {
             path: '/profile',

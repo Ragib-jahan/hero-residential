@@ -17,7 +17,7 @@ const Navbar = () => {
         logOut()
     }
     return (
-        <div className="mb-10">
+        <div className="mb-20">
             <Link to='/'><a className="btn btn-ghost text-xl flex md:hidden">Hero Residential</a></Link>
             <div className="navbar bg-base-100">
 
