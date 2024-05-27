@@ -47,7 +47,9 @@ const router = createBrowserRouter([
         },
         {
             path: '/single_family_home/:id',
-            element: <PrivetRoutes><SingleFamilyHousesDietails></SingleFamilyHousesDietails></PrivetRoutes>
+            element: <PrivetRoutes><SingleFamilyHousesDietails></SingleFamilyHousesDietails></PrivetRoutes>,
+            loader: ()=> fetch('/simgleFamilyHomes.json')
+            
         },
         {
             path:'/townHomes/:id',

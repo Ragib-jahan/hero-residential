@@ -52,7 +52,7 @@ const Profile = () => {
                     <label className="label">
                         <span className="label-text">PhotoURL:</span>
                     </label>
-                    <input className="input input-bordered w-full" required {...register("PhotoURL")} defaultValue={user.photoURL} disabled={isDisabled} />
+                    <input className="input input-bordered w-full" {...register("PhotoURL")} defaultValue={user.photoURL} disabled={isDisabled} />
                     {!isDisabled ? <input className="btn btn-primary mt-5" type="submit" value='Save Update' /> : <button className="btn btn-primary mt-5" onClick={toggleDisable}>
                         Update Profile
                     </button>}
