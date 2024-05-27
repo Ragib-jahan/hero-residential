@@ -3,13 +3,15 @@ import { AuthContext } from "../Provider/AuthProvider";
 import { useContext, useEffect } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FcGoogle } from "react-icons/fc";
+import { IoLogoGithub } from "react-icons/io";
 
 const Login = () => {
-    useEffect(()=>{
+    useEffect(() => {
         document.title = "Login"
-    },[])
+    }, [])
 
-    const { login, google } = useContext(AuthContext);
+    const { login, google, gitHub } = useContext(AuthContext);
 
     const handleLogin = e => {
         e.preventDefault();
@@ -46,6 +48,19 @@ const Login = () => {
             })
     }
 
+    const handleGitHubLogin = () => {
+        gitHub()
+            .then(result => {
+                console.log(result.user)
+                if (result.user) {
+                    toast.success("Successfully login");
+                }
+            })
+            .catch(error => {
+                console.log(error);
+            })
+    }
+
     return (
 
 
@@ -53,9 +68,12 @@ const Login = () => {
         <div>
             <ToastContainer />
             <h2 className="text-center">Login Please!</h2>
-            <div className="flex justify-center mt-3">
-                <button onClick={handleGoogleLogin} className="btn">Google Login</button>
+            <div className="flex flex-col md:w-1/4 w-2/3 mx-auto justify-center mt-3 space-y-3">
+                <button onClick={handleGoogleLogin} className="btn text-blue-500"> <FcGoogle className="text-xl" />
+                    Continue with Goggle</button>
+                <button onClick={handleGitHubLogin} className="btn text-blue-500"><IoLogoGithub className="text-xl" /> Continue with GitHub</button>
             </div>
+            <p className="text-center mt-7">Continue with Email and Password</p>
             <form onSubmit={handleLogin} className="card-body md:w-2/4 mx-auto">
                 <div className="form-control">
                     <label className="label">

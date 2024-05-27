@@ -2,6 +2,7 @@ import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndP
 import { createContext, useEffect, useState } from "react";
 import auth from "../firevase/firevase.config";
 import { GoogleAuthProvider } from "firebase/auth";
+import { GithubAuthProvider } from "firebase/auth";
 
 export const AuthContext = createContext(null)
 
@@ -11,10 +12,14 @@ const AuthProvider = ({ children }) => {
     const [loading, setLoading] = useState(true)
 
     const GoogleProvider = new GoogleAuthProvider();
+    const gitHubProvider = new GithubAuthProvider();
 
     const google = () => {
         setLoading(true)
         return signInWithPopup(auth, GoogleProvider)
+    }
+    const gitHub = () =>{
+        return signInWithPopup(auth, gitHubProvider)
     }
     const login = (email, password) => {
         setLoading(true)
@@ -51,7 +56,7 @@ const AuthProvider = ({ children }) => {
 
 
 
-    const authInfo = { user, login, register, google,logOut, update, loading}
+    const authInfo = { user, login, register, google,logOut, update, loading, gitHub}
 
     return (
         <AuthContext.Provider value={authInfo}>
